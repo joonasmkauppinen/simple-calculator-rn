@@ -4,10 +4,10 @@ import styled from 'styled-components';
 import { color } from '../../utils/style-utils';
 
 const StyledSafeArea = styled(View)`
-  /* align-items: center;
-  justify-content: center; */
+  /* align-items: flex-end; */
+  justify-content: flex-end;
   flex: 1;
-  flex-direction: column-reverse;
+  /* flex-direction: column-reverse; */
   background-color: ${color('bgMain')};
 `;
 

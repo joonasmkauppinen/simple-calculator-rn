@@ -4,9 +4,10 @@ import { DefaultTheme } from 'styled-components';
 const rootTheme: DefaultTheme = {
   color: {
     bgMain: '#161A24',
-    'listItem-answer': '#77F8D9',
-    'listItem-divider': '#3A445D',
-    'listItem-equation': '#5B9298',
+    'list-item-answer': '#77F8D9',
+    'list-item-divider': '#3A445D',
+    'list-item-equation': '#5B9298',
+    'list-item-inactive': '#24323B',
     'panel-background': '#232938',
     'panel-button-text': '#8A97BB',
     'panel-button-default': '#333B4D',

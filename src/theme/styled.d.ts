@@ -3,9 +3,10 @@ import 'styled-components';
 declare module 'styled-components' {
   export type ThemeColors = {
     bgMain: string;
-    'listItem-answer': string;
-    'listItem-divider': string;
-    'listItem-equation': string;
+    'list-item-answer': string;
+    'list-item-divider': string;
+    'list-item-equation': string;
+    'list-item-inactive': string;
     'panel-background': string;
     'panel-button-default': string;
     'panel-button-delete': string;
